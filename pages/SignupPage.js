@@ -24,7 +24,7 @@ export class SignupPage {
     this.submitBtn = page.getByRole("button", { name: "Submit" });
   }
 
-  // 👉 Methods
+  
   async launch() {
     await this.page.goto("https://demo.automationtesting.in/");
   }
