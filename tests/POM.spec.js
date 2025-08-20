@@ -1,4 +1,4 @@
-import { test } from "@playwright/test";
+import {expect, test } from "@playwright/test";
 import { SignupPage } from "../pages/SignupPage";
 
 test("Fill signup form on automationtesting.in", async ({ page }) => {
@@ -22,9 +22,11 @@ test("Fill signup form on automationtesting.in", async ({ page }) => {
 
   await signupPage.submitForm();
 
-  await page.waitForTimeout(2000); // ✅ assertion placeholder
 
 
   
 })
+
+
+
 
